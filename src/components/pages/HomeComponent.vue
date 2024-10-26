@@ -1,21 +1,22 @@
 <template>
-    <div class="home-page">
-        <h1>Home Page</h1>
+    <div class="container is-fluid pt-6">
+      <JustInComponent />
+      <NewslistingComponent />
     </div>
-</template>
-
-<script>
-export default {
-    name: 'HomePage'
-}
-</script>
-
-<style scoped>
-.home-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-</style>
+  </template>
+  
+  <script>
+  import JustInComponent from '/src/components/widgets/JustInComponent.vue';
+  import NewslistingComponent from '/src/components/widgets/NewsArticlesListingComponent.vue';
+  export default {
+    name: 'HomePage',
+    components: {
+      JustInComponent,
+      NewslistingComponent
+    }
+  }
+  </script>
+  
+  <style scoped>
+  /* Add any scoped styles for HomeComponent here */
+  </style>

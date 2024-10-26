@@ -1,5 +1,5 @@
 <template>
-  <div class="buttons pt-2 pb-2">
+  <div class="buttons box pt-2 pb-2">
     <router-link to="/" class="button is-large is-responsive" active-class="is-active">
       <span class="icon is-large"><i class="fa-solid fa-house"></i></span>
     </router-link>
