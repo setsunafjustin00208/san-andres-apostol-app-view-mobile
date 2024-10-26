@@ -1,0 +1,10 @@
+@import 'bulma/css/bulma.css';
+@import 'animate.css/animate.css';
+@import 'navbar.scss';
+@import 'navbuttons.scss';
+
+@media (min-width: 1024px) {
+    body {
+        display: none;
+    }
+}
