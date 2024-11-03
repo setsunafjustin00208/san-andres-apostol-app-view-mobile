@@ -1,21 +1,23 @@
 <template>
-    <div class="container is-fluid pt-6">
-        <div class="columns is-multiline">
+    <div class="container pt-6">
+        <div class="columns is-multiline p-2">
             <div class="column columns is-multiline box">
-                <div class="image-container">
-                    <figure class="image is-128x128">
+                <div class="image-container mb-2">
+                    <figure class="image is-128x128 mb-3">
                         <img src="https://bulma.io/assets/images/placeholders/128x128.png" />
                       </figure>
                 </div>
-                <div class="article-container mt-3 pt-6" v-for="article in articles" :key="article.id">
-                    <div class="article-item-container">
+                <div class="article-container">
+                    <h3 class="title is-4">News And Articles</h3>
+                    <div class="article-item-container" v-for="article in articles" :key="article.id">
                         <a href="#">
-                            <h4 class="title is-4">{{ article.title }}</h4>
-                            <p class="subtitle is-6">{{ article.summary }}</p>
+                            <h4 class="title is-6">{{ article.title }}</h4>
+                            <p class="subtitle is-6 article-details">{{ article.summary }}</p>
                             <p class="subtitle is-6">Published by {{ article.author }} on {{ article.publishedAt }}</p>
                         </a>
                         <hr>
                     </div>
+
                 </div>
 
             </div>
@@ -43,6 +45,20 @@ export default {
                     summary: 'This is a summary of the second article.',
                     publishedAt: '2023-10-02'
                 },
+                {
+                    id: 3,
+                    title: 'Sample Article 3',
+                    author: 'Author 3',
+                    summary: 'This is a summary of the third article.',
+                    publishedAt: '2023-10-03'
+                },
+                {
+                    id: 4,
+                    title: 'Sample Article 4',
+                    author: 'Author 4',
+                    summary: 'This is a summary of the fourth article.',
+                    publishedAt: '2023-10-04'
+                }
                 // Add more articles as needed
             ]
         };
@@ -53,16 +69,25 @@ export default {
 <style scoped>
 .container {
     margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 1%;
 }
 .box {
     border-radius: 0% !important;
     box-shadow: none !important;
-    border: 0.1px solid #dbdbdb !important;
+    transition: border 0.3s ease-in-out;
 }
 .image-container {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+
+    .image {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .background-image {
@@ -71,6 +96,16 @@ export default {
     background-position: center;
     opacity: 0.8;
    
+}
+.article-container {
+    
+    .article-item-container {
+       margin-bottom: 0px;
+
+       .article-details {
+           margin-bottom: 0px;
+       }
+    }
 }
 
 </style>
