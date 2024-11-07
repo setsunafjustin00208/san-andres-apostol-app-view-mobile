@@ -2,9 +2,12 @@
 @import 'animate.css/animate.css';
 @import 'navbar.scss';
 @import 'navbuttons.scss';
+@import 'bulma-extensions/dist/css/bulma-extensions.min.css';
 
-@media (min-width: 1024px) {
+
+@media (min-width: 1024px) { 
     body {
         display: none;
+        font-family: 'Roboto', sans-serif !important;
     }
 }

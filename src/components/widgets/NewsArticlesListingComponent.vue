@@ -4,7 +4,7 @@
             <div class="column columns is-multiline box">
                 <div class="image-container mb-2">
                     <figure class="image is-128x128 mb-3">
-                        <img src="https://bulma.io/assets/images/placeholders/128x128.png" />
+                        <img src="https://saapcandaba.org/wp-content/uploads/2024/10/Untitled-design2-1024x1024.png" />
                       </figure>
                 </div>
                 <div class="article-container">

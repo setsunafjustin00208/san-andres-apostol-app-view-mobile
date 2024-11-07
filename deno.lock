@@ -7,6 +7,7 @@
     "npm:@vue/cli@^5.0.8": "5.0.8",
     "npm:animate.css@^4.1.1": "4.1.1",
     "npm:aos@^2.3.4": "2.3.4",
+    "npm:bulma-extensions@^6.2.7": "6.2.7",
     "npm:bulma@^1.0.2": "1.0.2",
     "npm:fontawesome@^5.6.3": "5.6.3",
     "npm:howler@^2.2.4": "2.2.4",
@@ -2460,6 +2461,9 @@
     },
     "builtins@1.0.3": {
       "integrity": "sha512-uYBjakWipfaO/bXI7E8rq6kpwHRZK5cNYrUv2OzZSI/FvmdMyXJ2tG9dKcjEC5YHmHpUAwsargWIZNWdxb/bnQ=="
+    },
+    "bulma-extensions@6.2.7": {
+      "integrity": "sha512-y3dHsxlCYkuxUg87KKN9H4InM8NCk8tdnrlxLkYak8sd2WQdllg3wP2Nv41lj8X46uPXX2ADP0MO65LlXPHt/Q=="
     },
     "bulma@1.0.2": {
       "integrity": "sha512-D7GnDuF6seb6HkcnRMM9E739QpEY9chDzzeFrHMyEns/EXyDJuQ0XA0KxbBl/B2NTsKSoDomW61jFGFaAxhK5A=="
@@ -6416,6 +6420,7 @@
         "npm:@vue/cli@^5.0.8",
         "npm:animate.css@^4.1.1",
         "npm:aos@^2.3.4",
+        "npm:bulma-extensions@^6.2.7",
         "npm:bulma@^1.0.2",
         "npm:fontawesome@^5.6.3",
         "npm:howler@^2.2.4",
