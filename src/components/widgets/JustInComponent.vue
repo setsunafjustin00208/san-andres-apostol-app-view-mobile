@@ -35,7 +35,7 @@ const slides = [
 
 <template>
   <div class="container">
-    <h4 class="title is-3">Just In</h4>
+    <h4 class="title is-3 is-family-secondary">Just In</h4>
     <h6 class="subtitle is-size-6">Latest content from our Beloved Parish</h6>
     <Carousel class="carousel-container" v-bind="config">
       <Slide v-for="slide in slides" :key="slide.id">
@@ -43,10 +43,10 @@ const slides = [
           <div class="carousel__item image-container">
             <img :src="slide.image" :alt="slide.title" />
             <div class="news-headline-container">
-              <h4 class="title is-4">
-                {{ slide.title }}
+              <h4 class="title is-4 has-text-white">
+                {{ slide.title }} 
               </h4>
-              <h6 class="subtitle is-6">{{ slide.subtitle }}</h6>
+              <h6 class="subtitle is-6 has-text-white">{{ slide.subtitle }}</h6>
             </div>
           </div>
         </a>
@@ -86,8 +86,6 @@ p {
   left: 16px;
   text-align: left;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-.subtitle{
-  color: white
+
 }
 </style>

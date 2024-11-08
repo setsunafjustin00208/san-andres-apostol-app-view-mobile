@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container mt-6">
         <div class="columns is-multiline p-2">
             <div class="column columns is-multiline box">
                 <div class="event-container">

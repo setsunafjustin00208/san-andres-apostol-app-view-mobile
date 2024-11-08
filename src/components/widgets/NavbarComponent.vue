@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar is-fixed-top p-1 has-shadow" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top p-1 has-shadow " role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <div class="navbar-start mt-1">
           <a role="button" id="menu" class="navbar-burger" :class="{ 'is-active': isMenuVisible }" aria-label="menu" aria-expanded="false" @click="toggleMenu">

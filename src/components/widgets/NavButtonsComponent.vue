@@ -32,7 +32,8 @@ export default {
   position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
+  padding: 2em 0; /* Optional: to add padding */
 }
 
 .router-link-active {

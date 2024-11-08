@@ -75,8 +75,7 @@ export default {
     padding: 1%;
 }
 .box {
-    border-radius: 0% !important;
-    box-shadow: none !important;
+
     transition: border 0.3s ease-in-out;
 }
 .image-container {
