@@ -3,6 +3,7 @@
   "specifiers": {
     "npm:@fortawesome/fontawesome-free@^6.6.0": "6.6.0",
     "npm:@popperjs/core@^2.11.8": "2.11.8",
+    "npm:@types/vue@2": "2.0.0_typescript@5.6.3",
     "npm:@vitejs/plugin-vue@^5.1.4": "5.1.4_vite@5.4.10_vue@3.5.12__typescript@5.6.3_typescript@5.6.3",
     "npm:@vue/cli@^5.0.8": "5.0.8",
     "npm:animate.css@^4.1.1": "4.1.1",
@@ -1799,6 +1800,12 @@
       "integrity": "sha512-HsJ+z3QuETzP3cswwtzt2vEIiHBk/dCcHGhbmG5X3ecnwFD/lPrMpliGXxSCg03L9AhrdwA4Oz/qfspkDW+xGQ==",
       "dependencies": [
         "@types/node@22.5.4"
+      ]
+    },
+    "@types/vue@2.0.0_typescript@5.6.3": {
+      "integrity": "sha512-WDElkBv/o4lVwu6wYHB06AXs4Xo2fwDjJUpvPRc1QQdzkUSiGFjrYuSCy8raxLE5FObgKq8ND7R5gSZTFLK60w==",
+      "dependencies": [
+        "vue@3.5.12_typescript@5.6.3"
       ]
     },
     "@types/web-bluetooth@0.0.16": {
@@ -6416,6 +6423,7 @@
       "dependencies": [
         "npm:@fortawesome/fontawesome-free@^6.6.0",
         "npm:@popperjs/core@^2.11.8",
+        "npm:@types/vue@2",
         "npm:@vitejs/plugin-vue@^5.1.4",
         "npm:@vue/cli@^5.0.8",
         "npm:animate.css@^4.1.1",
